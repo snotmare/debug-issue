@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+	"tasks": [
+		{
+			"label": "init common-internal",
+			"type": "npm",
+			"script": "init",
+			"path": "common-internal/",
+			"problemMatcher": []
+		},
+		{
+			"label": "watch common-internal",
+			"type": "npm",
+			"script": "watch",
+			"path": "common-internal/",
+			"problemMatcher": []
+		},
+		{
+			"label": "init server",
+			"type": "npm",
+			"script": "init",
+			"path": "server/",
+			"problemMatcher": []
+		},
+		{
+			"label": "start server",
+			"type": "npm",
+			"script": "start",
+			"path": "server",
+			"problemMatcher": []
+		},
+	]
+}

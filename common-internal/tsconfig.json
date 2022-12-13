@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"experimentalDecorators": true,
+		"lib": [ "es2020", "dom" ],
+		"module": "commonjs",
+		"noImplicitOverride": true,
+		"outDir": "./dist",
+		"sourceMap": true,
+		"strict": false,
+		"target": "es2020",
+		"typeRoots": [
+			"./node_modules/@types/"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"src/**/*.spec.ts",
+		"dist/*"
+	]
+}
