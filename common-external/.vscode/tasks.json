@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+	"tasks": [
+		{
+			"label": "init common-external",
+			"type": "npm",
+			"script": "init",
+			"path": "common-external/",
+			"problemMatcher": []
+		},
+		{
+			"label": "watch common-external",
+			"type": "npm",
+			"script": "watch",
+			"path": "common-external/",
+			"problemMatcher": []
+		},
+	]
+}

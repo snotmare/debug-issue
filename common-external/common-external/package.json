@@ -1,0 +1,16 @@
+{
+	"name": "common-external",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc --watch"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "4.9.4"
+	}
+}
